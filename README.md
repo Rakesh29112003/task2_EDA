@@ -1,43 +1,39 @@
-# 📊 Exploratory Data Analysis (EDA) - Beginner Friendly Project
+# 🧪 Exploratory Data Analysis (EDA)
 
-This project helps you perform **Exploratory Data Analysis (EDA)** on any dataset using Python. It's designed for **beginners**, so don’t worry if you’re just getting started with data analysis or coding!
+This project demonstrates **Exploratory Data Analysis (EDA)** on a dataset using Python. It includes generating statistical summaries, visualizations, outlier detection, and correlation analysis — all using beginner-friendly tools such as **Pandas**, **Matplotlib**, and **Seaborn**.
 
----
-
-## 📌 What is EDA?
-
-**Exploratory Data Analysis (EDA)** is the process of summarizing, visualizing, and understanding the key characteristics of data. Before building machine learning models, EDA helps us:
-
-- Understand what the data looks like
-- Discover patterns and trends
-- Identify outliers and missing values
-- Explore relationships between features
+> ✅ Designed to work on **GitHub** — static plots (like boxplots) will display properly!
 
 ---
 
-## 🎯 Project Objective
+## 📁 Files
 
-In this project, you will:
-
-1. Load and inspect a dataset
-2. Generate summary statistics
-3. Create histograms and boxplots for visualizing distributions and outliers
-4. Use pairplots and correlation matrices to analyze feature relationships
-5. Identify anomalies or missing values
-6. Create interactive plots using Plotly
+- `task2.ipynb` – Jupyter Notebook containing all EDA steps
+- `data.csv` – The input dataset (you must provide your own if not included)
 
 ---
 
-## 🧰 Tools & Libraries Used
+## 📌 Objectives
 
-| Library       | Purpose                               |
-|---------------|----------------------------------------|
-| **Pandas**     | Reading and manipulating data          |
-| **NumPy**      | Numerical calculations                 |
-| **Matplotlib** | Basic plotting                         |
-| **Seaborn**    | Statistical data visualization         |
-| **Plotly**     | Interactive charts and plots           |
+- Understand the structure and summary of the dataset
+- Visualize distributions using histograms and boxplots
+- Identify relationships between features using pairplots and correlation heatmaps
+- Detect missing values and potential outliers
 
 ---
 
+## 📦 Libraries Used
 
+- `pandas` – For data handling
+- `numpy` – For numeric computations
+- `matplotlib` & `seaborn` – For static visualizations (GitHub compatible)
+- `plotly` *(optional)* – For interactive charts (not shown on GitHub, but useful locally)
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository or download the notebook:
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
